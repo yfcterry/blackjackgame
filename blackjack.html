@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Blackjack Game</title>
+        <link rel="stylesheet" href="blackjack.css">
+    </head>
+    <body>
+        <h1>Blackjack</h1>
+        <p id="message-el">Want to play a round? Press Start Game!</p>
+        <p>Dealer stand on all 17 and up</p>
+        <div class="card-section">
+        <p id="cards-el">Your Cards: </p>
+        <p id="dealer-cards-el">Dealer Cards</p>
+        </div>
+        <div class="score">
+        <p id="sum-el">Your Total: </p>
+        <p id="sum-el2">Dealer Total: </p>
+        </div>
+        <button id="game-btn" onclick="startGame();">START GAME</button>
+        <button id="newcard-btn" onclick="newCard();">ADD CARD</button>
+        <p id="player-el"></p>
+        <p id="note-el"></p>
+        <script src="card.js"></script>
+    </body>
+</html>

@@ -1,0 +1,53 @@
+body {
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: rgb(10, 73, 10);
+    color: white;
+    font-weight: bold;
+}
+h1 {
+    color: goldenrod;
+}
+#message-el {
+    font-style: italic;
+}
+#game-btn, #newcard-btn {
+    color: #016f32;
+    background-color: goldenrod;
+    border: none;
+    padding: 4px 32px;
+    border-radius: 5px;
+    font-weight: bold;
+    display: block;
+    margin: 8px auto;
+}
+#game-btn:active, #newcard-btn:active {
+    background-color: rgb(97, 74, 16);
+}
+#note-el {
+    color: red;
+}
+.card-section {
+    
+    padding: 12px 12px;
+    display: flex;
+    justify-content: center;
+    height: 100px;
+}
+.card-section p {
+    border: 1px solid rgb(1, 31, 4);
+    border-radius: 20px;
+    margin: 12px;
+    background-color: rgb(86, 160, 86);
+    min-width: 200px;
+    text-align: center;
+}
+.score {
+    display: flex;
+    justify-content: center;
+
+}
+.score p {
+    margin: 30px;
+
+}
